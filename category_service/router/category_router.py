@@ -1,7 +1,6 @@
 from uuid import UUID
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.responses import JSONResponse
-
 from database.connection import Session
 from database.dependencies import get_db
 from models.category_model import Category
